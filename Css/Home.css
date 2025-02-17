@@ -1,0 +1,406 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Cairo", sans-serif;
+}
+header {
+  background-image: url(../img/bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+header .overly {
+  background: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  padding-top: 100px;
+  height: 100vh;
+}
+header .header-img img {
+  max-width: 100%;
+  position: absolute;
+  bottom: -200px;
+}
+header .header-title img {
+  margin-top: 100px;
+}
+header .header-title h4 {
+  margin-top: 40px;
+  color: #fff;
+}
+
+header .header-title p {
+  margin-top: 40px;
+  color: #fff;
+}
+
+header .header-app img {
+  width: 100%;
+  height: auto;
+}
+header .header-app a img:last-child {
+  width: 100%;
+  height: auto;
+}
+header .header-app {
+  margin-top: 80px;
+}
+/*================================================*/
+/*=============== Advantages =====================*/
+/*================================================*/
+section.Advantages {
+  background: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+section.Advantages img {
+  width: 65%;
+}
+section.Advantages .features {
+  margin-top: 80px;
+}
+section.Advantages .features .d-flex h5 {
+  font-size: 24px;
+  color: black;
+  line-height: 55px;
+}
+
+section.Advantages .features .d-flex p {
+  font-size: 15px;
+  color: #080808;
+  margin-bottom: 20px;
+}
+section.Advantages .features.text-left {
+  direction: ltr !important;
+}
+section.Advantages .features i {
+  background-color: #ef473a;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  display: block;
+  border-radius: 4px;
+}
+/* ============================================== */
+/* ================= description ================ */
+/* ============================================== */
+
+section.description {
+  background-color: #f8f8f8;
+  padding-top: 50px;
+  padding-right: 120px;
+  position: relative;
+  overflow: hidden;
+}
+section.description .description-img {
+  position: absolute;
+  bottom: -150px;
+}
+section.description .description-titel {
+  padding-top: 120px;
+  padding-right: 70px;
+}
+section.description .description-titel .d-flex {
+  margin-bottom: 50px;
+}
+section.description .description-titel .d-flex h5 {
+  font-size: 24px;
+}
+/* ============================================== */
+/* ================== screen ==================== */
+/* ============================================== */
+section.screen {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  width: 60%;
+  margin: 0 auto;
+}
+section.screen .screen-text h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+}
+section.screen .Convert-button button {
+  width: 70px;
+  height: 70px;
+  margin: 15% auto 0;
+  background-color: #ef473a;
+  color: #ef473a;
+  border-radius: 50%;
+}
+section.screen .carousel-item img {
+  margin: 0 auto;
+}
+/* ============================================== */
+/* =================== QS ======================= */
+/* ============================================== */
+section.QS {
+  background-image: url(../img/bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+section.QS .overly {
+  background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.856));
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+section.QS .overly .QS-accordion .accordion-item .accordion-body p {
+  font-size: 18px;
+  color: #111111;
+}
+section.QS .overly .QS-accordion .accordion-item {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.205);
+  border: none;
+  border-radius: 2px;
+}
+section.QS .overly .QS-accordion .accordion-item .accordion-header button {
+  font-size: 18px;
+  background-color: transparent;
+  color: #fff;
+  border-bottom: 0;
+}
+section.QS
+  .overly
+  .QS-accordion
+  .accordion-item
+  .accordion-header
+  button::after {
+  content: none;
+}
+section.QS .overly .QS-accordion .accordion-item .accordion-header button i {
+  margin-right: auto;
+  transform: rotate(180deg);
+}
+section.QS
+  .overly
+  .QS-accordion
+  .accordion-item
+  .accordion-header
+  .collapsed
+  i {
+  transform: rotate(0deg);
+}
+section.QS
+  .overly
+  .QS-accordion
+  .accordion-item
+  .accordion-header
+  button:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 0;
+}
+section.QS .QS-text h2 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+/* =============================================== */
+
+section.about {
+  background-color: #171717;
+}
+section.about .about-text {
+  color: #ef473a;
+  font-size: 18px;
+  padding-top: 70px;
+}
+section.about hr {
+  width: 10%;
+  color: #e9e9e9;
+  margin-bottom: 30px;
+}
+section.about p {
+  color: #919191;
+  margin-bottom: 60px;
+}
+
+section.about ul.Social-media {
+  display: flex;
+  list-style: none;
+  margin-bottom: 100px;
+}
+section.about ul.Social-media li a {
+  margin: 0 5px 0;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 16px;
+  background-color: #333333;
+  color: white;
+}
+section.about ul.Social-media li a:hover {
+  transition: all 0.4s ease-in-out;
+  background-color: #ef473a;
+}
+section.about input {
+  width: 70%;
+  height: 40px;
+  background-color: #00000063;
+  border: none;
+  border-radius: 3px;
+  direction: rtl;
+}
+section.about button {
+  margin-top: 20px;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.about-us i {
+  color: #ef473a;
+  margin-left: 10px;
+}
+
+ul.about-us li {
+  margin-top: 20px;
+}
+ul.about-us li a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: #f8f8f8;
+}
+/* =================================== */
+section.copy-right {
+  background-color: #111111;
+  padding: 40px 0 30px;
+}
+section.copy-right h6 a {
+  color: #919191;
+  text-decoration: none;
+}
+/* ============================================== */
+@media (max-width: 1300px) {
+  section.description {
+    background-color: #f8f8f8;
+    padding-right: 0;
+    position: relative;
+    overflow: auto;
+  }
+  section.description .description-img {
+    position: relative;
+    bottom: 0;
+  }
+}
+@media (max-width: 800px) {
+  header .header-img img {
+    width: 200px;
+    position: relative;
+    bottom: 0px;
+  }
+  header .header-title img {
+    margin-top: 30px;
+  }
+  header .header-app {
+    margin-top: 20px;
+  }
+  header .header-title img {
+    margin-top: 50px;
+  }
+  header .header-title h4 {
+    margin-top: 20px;
+  }
+
+  header .header-title p {
+    margin-top: 20px;
+  }
+
+  section.Advantages {
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  section.description .description-img img {
+    max-width: 80%;
+    position: relative;
+    bottom: 0;
+  }
+  /* ============================================= */
+  /* ============================================= */
+  /* ============================================= */
+  section.screen {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+  section.screen .screen-text h2 {
+    margin-bottom: 30px;
+  }
+  section.screen .Convert-button button {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 799px) {
+  header .overly,
+  header {
+    height: 60vh;
+  }
+}
+@media (max-width: 576px) {
+  header .overly,
+  header {
+    height: 100vh;
+    padding-top: 0px;
+  }
+  header .header-img img {
+    width: 130px;
+    position: absolute;
+    bottom: -250px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  header .header-title img {
+    margin-top: 10px;
+  }
+  header .header-app {
+    margin-top: 10px;
+  }
+  header .header-title img {
+    margin-top: 20px;
+  }
+  header .header-title h4 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  header .header-title .header-p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  section.Advantages {
+    background: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+  }
+  section.description .description-img img {
+    max-width: 80%;
+    position: relative;
+    bottom: 0;
+  }
+  /* ============================================= */
+  /* ============================================= */
+  /* ============================================= */
+  section.screen {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+  section.screen .screen-text h2 {
+    margin-bottom: 30px;
+  }
+  section.screen .Convert-button button {
+    width: 50px;
+    height: 50px;
+  }
+  section.about button {
+    margin-top: 50px;
+  }
+}
